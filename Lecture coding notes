@@ -1,0 +1,30 @@
+/*select fips,name from name*/
+
+/*select 6+4 as result*/ 
+
+/*select * from income
+
+select income/1000 as income_thousand
+from income*/
+
+/*select fips from name
+where name = 'Virginia'*/
+
+/*select income, fips from income
+where income >70000
+limit 5*/
+
+/*select income, fips, year from income 
+where year between 2010 and 2015 /*fips = '51' and year >2010*/
+order by year desc /*will go from most recent year descending*/ 
+limit 5*/ 
+
+/*select count(fips) from population 
+where fips = '51'*/
+
+/*select year, max(pop) from population 
+group by year 
+order by year desc*/
+
+select income,fips from income
+order by income desc 
