@@ -8,6 +8,7 @@ values('80',6000,2025)
 
 /*4.3 I asked "I need to collect names and fips in one table. In another table, I need states populations in different years. define their table structure in sql"4.3 It was pretty good: I liked the different column/key names it came up with. But there were might be one or two coding errors I think (Null value for census year, ex.)*/
 
-/*4.5 Yes it does, mine is simpler because it has no foreign keys*/
+/*4.5 Yes it does. I used the data direclt from ERD labs from lab 2*/
+
 
 /*4.6 Yes it does. It is not a state, but Washington, D.C*/
